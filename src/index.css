@@ -6,8 +6,12 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f9f9f9;
+  background-color: #5c3131;
   color: #000;
+  background: url("./assets/images/library2.png") no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  object-fit: cover;
 }
 h1,
 h2 {

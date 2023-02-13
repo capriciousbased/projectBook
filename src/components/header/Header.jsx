@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/images/logo.png"
 import "./header.css"
 import { User } from "./User"
 import { nav } from "../../assets/data/data"
@@ -9,7 +9,7 @@ export const Header = () => {
    window.addEventListener("scroll", function () {
     const header = this.document.querySelector(".header")
     header.classList.toggle("active", this.window.scrollY > 100)
-  }) 
+  })
   return (
     <>
       <header className='header'>
